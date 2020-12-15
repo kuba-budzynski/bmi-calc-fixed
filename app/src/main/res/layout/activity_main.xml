@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="413dp"
+                android:layout_height="201dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_weight" />
+
+            <TextView
+                android:id="@+id/weightLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:nextFocusLeft="@id/linear"
+                android:nextFocusUp="@id/linear"
+                android:text="@string/metric_weight"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <TextView
+                android:id="@+id/heightLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:nextFocusLeft="@id/linear"
+                android:nextFocusUp="@id/linear"
+                android:text="@string/metric_height"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weightInput" />
+
+            <EditText
+                android:id="@+id/weightInput"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="auto"
+                android:inputType="numberDecimal"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weightLabel" />
+
+            <EditText
+                android:id="@+id/heightInput"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="auto"
+                android:inputType="numberDecimal"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/heightLabel" />
+
+            <Button
+                android:id="@+id/calculateButton"
+                android:layout_width="207dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/back2"
+                android:onClick="count"
+                android:text="Oblicz BMI"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/heightInput" />
+
+            <TextView
+                android:id="@+id/resultLabel"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:clickable="false"
+                android:onClick="openMoreInfo"
+                android:textAlignment="center"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/fill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:enabled="false"
+                android:text="@string/resultHint"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/resultLabel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calculateButton"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>
+

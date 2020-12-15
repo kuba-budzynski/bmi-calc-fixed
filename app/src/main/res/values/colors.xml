@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkAccent">#333333</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>]
+    <color name="underweight">#2d95f7</color>
+    <color name="normal">#6df72d</color>
+    <color name="overweight">#f79c2d</color>
+    <color name="obese">#eb2715</color>
+    <color name="back">#EDF2F7</color>
+    <color name="back2">#E2E8F0</color>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="metric_height">Twój wzrost w centymetrach</string>
+    <string name="metric_weight">Twoja waga w kilogramach</string>
+    <string name="imperial_height">Twój wzrost w calach</string>
+    <string name="imperial_weight">Twoja waga w funtach</string>
+    <string name="resultHint">Twoje BMI</string>
+
+    <string name="opis_underweight">
+        Niedowaga według WHO (Światowej Organizacji Zdrowia) mieści się w przedziale 17,00–18,49. Osoby, z takim wskaźnikiem BMI powinny zmienić swój styl życia. W takim przypadku zalecana jest zmiana żywienia na dietę pełnowartościową. Osoby z niedowagą, chcąc zadbać o swoje zdrowie, powinny spożywać więcej pokarmów zawierających witaminy, białka i składniki mineralne. Nie należy lekceważyć zbyt niskiej masy ciała. Zbagatelizowanie swojego stanu fizycznego może przynieść tragiczne skutki. U takiej osoby istnieje duże prawdopodobieństwo wystąpienia zaburzeń hormonalnych, nieprawidłowości w pracy serca, a także poronień podczas ciąży. Przyczyn niedowagi jest wiele. Najczęściej jest to nadmierne odchudzanie, które często prowadzi do zaburzeń odżywiania. Ponadto przy tak niskiej wartości BMI możliwe jest wystąpienie osteoporozy czy anemii.
+    </string>
+    <string name="opis_normal">
+        Wskaźnik BMI dla prawidłowej wagi wynosi 18,5–24,99. Osoby posiadające taką właśnie wartość BMI nie mają się czym martwić. Oznacza to, że ich styl życia jest zdrowy i przyjazny dla organizmu. Ten współczynnik informuje o tym, że waga jest prawidłowa.
+    </string>
+    <string name="opis_overweight">
+        Nadwaga mieści się w przedziale 25,0–29,99. Osoby posiadające taki wynik BMI nie powinny się przesadnie martwić o swoje zdrowie. Nie oznacza to jednak, że nie potrzebują lekkiej zmiany stylu życia. Wskazana jest w tym przypadku zmiana codziennej diety. Osoby z nadwagą powinny zmniejszyć ilość spożywania posiłków zawierających szkodliwe dla organizmu cukry.
+        Wartość BMI określająca nadwagę jest jedynie ostrzeżeniem. Nie należy w tym przypadku wpadać w panikę. Jedyne co możemy zrobić to ograniczyć pokarmy, które szkodzą naszemu organizmowi i zacząć spędzać aktywnie czas. Osoby, u których masa ciała mieści się w tym właśnie przedziale nie powinny dopuścić do zwiększenia wartości BMI. Zdrowszy tryb życia w tym przypadku nie tylko poprawi ich zdrowie i samopoczucie ale również nie spowoduje wzrostu masy ciała. Wskazane jest zadbanie o to, aby uzyskać prawidłową wagę.
+    </string>
+    <string name="opis_obese">
+        Wskaźnik BMI dla otyłości wynosi ponad 30. Osoby posiadające taki wynik powinny poważnie zainteresować się swoją wagą. Otyłość może prowadzić do poważnych wystąpień zaburzeń hormonalnych, nieprawidłowości pracy serca i układu krwionośnego, pracy płuc oraz cukrzycy. Osoby z otyłością, chcąc zadbać o swoje zdrowie, powinny spożywać mniej kalorii i dbać o regularny ruch.
+    </string>
+
+    <string name="underweight">Niedowaga</string>
+    <string name="normal">Normalne</string>
+    <string name="overweight">Nadwaga</string>
+    <string name="obese">Otyłość</string>
+
+</resources>
